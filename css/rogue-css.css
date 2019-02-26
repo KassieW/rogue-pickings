@@ -1,0 +1,110 @@
+@font-face {
+font-family: Wisdom;
+src: url('../fonts/wisdom.otf') format('opentype');
+}
+
+body{
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+}
+
+/***** GRID *****/
+.full-width{
+  width: 1240px;
+  margin: 20px;
+}
+
+.half-width{
+  width: 620px;
+  float: left;
+}
+
+.third-width{
+  width: 400px;
+  height: 216px;
+  float: left;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding-left: 12px;
+}
+.border{
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+
+/***** HEADER *****/
+
+header{
+  height: 90px;
+  color: #77a466;
+  text-transform: uppercase;
+}
+header h1 span{
+  color: #000000;
+}
+nav{
+  float: right;
+}
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+img{
+  border: 3px solid #77a466;
+}
+
+/***** INTRODUCTION *****/
+h2{
+  color: #77a466;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+.intro{
+  width: 1200px;
+}
+/***** BOTTOM SECTION *****/
+
+h3{
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+#menu {
+  color: #77a466;
+  font-size: 16px;
+  line-height: 2em;
+}
+#review{
+  font-size: 16px;
+  line-height: 21px;
+  width: 325px;
+  padding-right: 45px;
+}
+#address{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/***** FOOTER *****/
+footer{
+  clear:both;
+  font-size: 16px;
+  line-height: 23px;
+  width: 1240px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 17px;
+}
+
+footer span{
+  color: #77a466;
+  font-family: "Wisdom";
+  text-transform: lowercase;
+}
